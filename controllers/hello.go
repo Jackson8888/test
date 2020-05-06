@@ -11,4 +11,5 @@ type HelloController struct {
 //重写Get方法
 func (hello *HelloController) Get() {
 	hello.Ctx.WriteString("hello go")
+	hello.Ctx.WriteString("hello go")
 }
